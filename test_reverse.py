@@ -4,11 +4,11 @@ from reverse import neg
 class Testreverse(unittest.TestCase):
 
     def test_int(self):
-        result = reverse.neg(5)
+        result = neg(5)
         self.assertIsInstance(result, int)
 
     def test_neg(self):
-        result = reverse.neg(5)
+        result = neg(5)
         self.assertEqual(result, -5)
 
 
