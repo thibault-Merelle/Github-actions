@@ -9,9 +9,9 @@ jobs:
       - name: Run hello-world
         run: echo "Hello world"
       
-      - uses: actions/checkout@V2
+      - uses: actions/checkout@v2
       - name: set up python3
-        uses: actions/setup-python@V2
+        uses: actions/setup-python@v2
         with:
           python-version: 3.8
       
