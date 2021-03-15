@@ -1,9 +1,7 @@
 name: first test hello world
 
 on:
-  push:
-    branches:
-      - master
+  - push
 
 jobs:
   first-job:
