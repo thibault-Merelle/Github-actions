@@ -1,5 +1,5 @@
 import unittest
-import reverse
+from reverse import neg
 
 class Testreverse(unittest.TestCase):
 
