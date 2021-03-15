@@ -1,0 +1,15 @@
+name: first test hello world
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  first-job:
+    runs-on: ubuntu-lastest
+    steps:
+      - name: Run hello-world
+        run: echo "Hello world"
+
+
