@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: 3.8
       
-      - name: Run test_reversed
-        run: python3 test_reversed.py
+      - name: Run test_reverse
+        run: python3 test_reverse.py
 
 
