@@ -10,10 +10,10 @@ jobs:
         run: echo "Hello world"
       
       - uses: actions/checkout@V2
-      - names: set up python3
+      - name: set up python3
         uses: actions/setup-python@V2
         with:
-          python-version: [3.8]
+          python-version: 3.8
       
       - name: Run test_reversed
         run: python3 test_reversed.py
